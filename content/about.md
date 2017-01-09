@@ -8,8 +8,8 @@ weight = 3
 
 ```bash
 $ Andrew Grathwohl
+$ Brooklyn, NY
 ```
-Brooklyn, NY
 
 Programmer, audio engineer, composer, immersive media pioneer.
 
