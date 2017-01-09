@@ -1,0 +1,33 @@
+languageCode = "en-us"
+title = "Grathwohl.me"
+baseurl = "https://grathwohl.me"
+
+paginate = 5
+
+enableRobotsTXT = true
+SectionPagesMenu = "main"
+
+extensions = ["EXTENSION_HARD_LINE_BREAK"]
+
+[params]
+  description = "A place for my radical immersions" # Suggested, controls homepage description meta
+  author = "AndrewUnmuted" # Optional, controls author name display on posts
+  show_menu = true # Optional, set false to disable menu entirely
+  powered_by = false # Optional, set false to disable theme credits
+
+  [params.seo]
+    google_verify = "" # Optional, Google verification code
+    bing_verify = "" # Optional, Bing verification code
+    yandex_verify = "" # Optional, Yandex verification code
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
